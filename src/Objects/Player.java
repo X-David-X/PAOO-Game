@@ -49,9 +49,9 @@ public class Player extends GameObject {
 
         playerWalk = new Animation(5,false,texture.player[0],texture.player[1],texture.player[2] );
         playerWalkLeft = new Animation(5,false,texture.player[3],texture.player[4],texture.player[5] );
-        database_score.create_table();
-        score = database_score.getScore();
-        instance = this;
+        //database_score.create_table();
+        //score = database_score.getScore();
+        //instance = this;
 
     }
 
@@ -80,8 +80,8 @@ public class Player extends GameObject {
 
         playerWalk = new Animation(5,false,texture.player[0],texture.player[1],texture.player[2] );
         playerWalkLeft = new Animation(5,false,texture.player[3],texture.player[4],texture.player[5] );
-        database_score.create_table();
-        score = database_score.getScore();
+        //database_score.create_table();
+        //score = database_score.getScore();
         //instance = this;
 
 
